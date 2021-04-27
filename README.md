@@ -12,7 +12,7 @@ The game server was written in JavaScript with NodeJS with socket.io to keep a l
 If you want to get the game running immediately or wish to tinker around with the code, this is the place to start!
 
 ### Prerequisites
-This project can be run on Windows 10 by running the executable in the project folder. The game will not start until at least two users are playing at the same time.
+This project can be run on Windows 10 by running the executable in bargario-windows.zip file. The game will not start until at least two users are playing at the same time.
 
 ## What I learned
 As with many new endevors, mistakes were made that changed the course of the project. Firstly, I wrote the whole server code before moving over to the client. I did not research beforehand whether or not Socket.io was available on every platform I wanted to write the game for (Web, Linux, Mac, Android, Windows). C# has a single library for Socket.io and it was only compatible with windows systems. This was a grave oversight, but taught me a lesson in proper stack planning that I have since made use of in other projects. 
